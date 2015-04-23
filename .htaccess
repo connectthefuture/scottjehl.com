@@ -1,0 +1,4 @@
+# compress transfer
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript 
+</IfModule>
